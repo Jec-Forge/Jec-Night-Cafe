@@ -4,6 +4,8 @@ import { Toaster } from "react-hot-toast";
 import Home from './Pages/Home';
 import NotFound from './Pages/NotFound';
 import Success from './Pages/Success';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+import TermsOfService from './Pages/TermsOfService';
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/success" element={<Success/>}/>
+        <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+        <Route path="/terms-of-service" element={<TermsOfService/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Toaster/>
