@@ -7,7 +7,7 @@ const Navbar = () => {
     const [show, setShow] = useState(false);
     return (
         <nav>
-          <div className="logo-container"> <img className="logo" src="/public/forge.png" alt="" />
+          <div className="logo-container"> <img className="logo" src="/forge.png" alt="" />
           <p>JEC Night Cafe</p></div>
         {/* <div className="logo">Nitish</div> */}
         <div className={show ? "navLinks showmenu": "navLinks"}>
